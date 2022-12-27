@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
 
   // Création d'une fonction principale "main" qui va appeler les autres fonctions
-  async function main() {
+  function main() {
     const modalBtn = document.querySelectorAll(".modal-btn");
     const close = document.querySelector(".close");
     const confirmationClose = document.querySelector(".confirmation-close");
